@@ -59,7 +59,7 @@ function OatAdder() {
     if (typeof window !== 'undefined') {
       console.log(localStorage.getItem("oats"))
       if (localStorage.getItem("oats") != null) {
-        console.log("hi")
+
         setOatData(JSON.parse(localStorage.getItem("oats")));
 
         setSubmitted(true);
